@@ -42,11 +42,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Reactjs Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -105,7 +105,7 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "Express",
     icon: figma,
   },
   {
@@ -116,11 +116,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "A Food Delivery WebApp",
+    company_name: "Reactjs, Redux-toolkit",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    //date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +129,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "An E-commerce WebApp",
+    company_name: "Reactjs, Javascript, Redux-toolkit, tailwind",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    //date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,11 +142,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "A Video-streaming App",
+    company_name: "Reactjs, Javascript, Redux-toolkit, tailwind",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    //date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,11 +155,11 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "A Social Media Webapp ",
+    company_name: "Reactjs, Javascript, Redux-toolkit, tailwind",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    //date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,42 +172,42 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Software Developer at APIIP",
+    name: "Lead EoDB portal of Arunachal Pradesh ",
+    designation: "Aug 2023- Nov 2023",
+   // company: "Acme Co",
+   // image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Industrial Training at BSNL Itanagar ",
+    //name: "Chris Brown",
+    designation: "April 2022 - May 2022",
+   // company: "DEF Corp",
+   // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Spokesperson Of Computer Association of NERIST",
+    //name: "Lisa Wang",
+    designation: "Aug 2021- Aug 2022",
+    //company: "456 Enterprises",
+    //image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "A Video-streaming Webapp",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, live-chat, and watch youtube videos.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -216,12 +216,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SriCoD/youtube",
   },
   {
-    name: "Job IT",
+    name: "E-commerce WebApp",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for products, filter available products and easily purchase the product through secure Razorpay payment gateway.",
     tags: [
       {
         name: "react",
@@ -237,19 +237,19 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SriCoD/e-commerce-project",
   },
   {
-    name: "Trip Guide",
+    name: "A Food Delivery App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive food delivery platform that allows users to shop dishes and cuisnies at affordable price.",
     tags: [
       {
-        name: "nextjs",
+        name: "redux-toolkit",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "reactjs",
         color: "green-text-gradient",
       },
       {
@@ -258,8 +258,9 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SriCoD/Food-Delivery-App",
   },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+//https://food-delivery-app-git-main-srishti-jhas-projects.vercel.app/
