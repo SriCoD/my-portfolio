@@ -15,9 +15,9 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+    className="bg-black-200 p-8 rounded-3xl xs:w-[320px] w-full"
   >
-    <p className="text-white font-black text-[48px]">"</p>
+    <p className="text-white font-black text-[48px]"></p>
 
     <div className="mt-1">
       <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
@@ -28,7 +28,7 @@ const FeedbackCard = ({
             <span className="blue-text-gradient"></span> {name}
           </p>
           <p className="mt-1 text-secondary text-[12px]">
-            {designation} of {company}
+            {designation} {company}
           </p>
         </div>
       </div>
@@ -44,9 +44,10 @@ const Feedbacks = () => {
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Education</p>
+          <h5> Graduated-June 2023</h5>
           <h2 className={styles.sectionHeadText}>
-            Bachelors of Technology in Computer Science Engineering{" "}
-          </h2>
+            Bachelors of Technology Computer Science Engineering
+          </h2>{" "}
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
