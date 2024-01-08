@@ -217,6 +217,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/SriCoD/youtube",
+    deployment_link:"",
   },
   {
     name: "E-commerce WebApp",
@@ -238,6 +239,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/SriCoD/e-commerce-project",
+    deployment_link:"",
   },
   {
     name: "A Food Delivery App",
@@ -259,6 +261,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/SriCoD/Food-Delivery-App",
+    deployment_link:"https://food-delivery-app-git-main-srishti-jhas-projects.vercel.app",
   },
 ];
 

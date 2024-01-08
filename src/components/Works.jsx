@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deployment_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -46,9 +47,7 @@ const ProjectCard = ({
             </div>
 
             <div
-              onClick={() =>
-                window.open("my-youtube-srishti3.vercel.app", "_blank")
-              }
+              onClick={() => window.open(deployment_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
